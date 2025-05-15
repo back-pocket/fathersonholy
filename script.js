@@ -9,7 +9,7 @@ function redirect() {
         alert("Allow Surviellance of Yr Body and Mind.") 
         break; 
       case "option2": 
-          document.location = "/Users/chloegillen/Desktop/background/father.html"; 
+          document.location = "father.html"; 
         alert("Allow Surviellance of Yr Body and Mind.") 
           break; 
       case "option3": 
