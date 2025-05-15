@@ -9,11 +9,11 @@ function redirect() {
         alert("Allow Surviellance of Yr Body and Mind.") 
         break; 
       case "option2": 
-          document.location = "https://github.com/back-pocket/fathersonholy/blob/a5245a234ba665f51c4ef72e3b8d92447a3a8bdb/father.htmll"; 
+          window.location.href = "./father.html" 
         alert("Allow Surviellance of Yr Body and Mind.") 
           break; 
       case "option3": 
-         document.location = "https://github.com/back-pocket/fathersonholy/blob/018869c073c3646053cf49e773b19d11fc0a458b/spirit.html"; 
+         window.location.href = "./spirit.html" 
         alert("Allow Surviellance of Yr Body and Mind.")  
           break; 
       default: 
