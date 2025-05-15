@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    height: 100vh; 
+    background-position: center;
+
+  }
+  .rainbow {
+ position:relative; z-index:1;
+  text-align: center;
+  width:500vh;
+  height: 50vh;
+}
+ .container {
+  display: relative;
+  
+}
+.hidden {
+  overflow: hidden;
+}
+.gif1 {
+  position:relative; z-index:1;
+ width:200vh; 
+ height: 50vh;
+  margin: auto;
+  display: flex;
+   z-index: 1;
+}
+.gif2 {
+  position:absolute; z-index:2;
+width: 50; 
+ top: 52.5%; 
+}
+.gif3 {
+position:absolute; z-index:3;
+width: 50; 
+ top: 52.5%; 
+margin-left: 80%;
+}
+
+
+
+   
+  body { 
+    background-image: url(buttonback.gif);
+    background-size: cover;
+    background-repeat:no-repeat
+  }
+  select {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 470px !important;
+    height: 40px !important;
+    font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+    font-style: oblique 23deg;
+    font-size: 30px;
+    text-align: center;
+    background-color:rgb(0, 0, 0) ;
+     color: #ffffff;
+  text-shadow:
+      0 0 7px #f2ff00,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    }
+
+    button {
+      width: 10%;
+      height: 10%;
+      overflow: auto;
+      margin: auto;
+      position:absolute;z-index:999;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background-color:rgb(0, 0, 0) ;
+      background-blend-mode: difference;
+     color: #ffffff;
+  text-shadow:
+      0 0 7px #f2ff00,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+    font-style: oblique 23deg;
+      font-size: 15px;
+      border-color: transparent;
+    }
+
+    p { 
+      color: white;
+      font-family:fantasy;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    @font-face { 
+     
+  src: url("https://mdn.github.io/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: "AmstelvarAlpha";
+  font-style: normal;
+    }
+
+    

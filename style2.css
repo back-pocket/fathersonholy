@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("background2.gif") ;
+    background-repeat: no-repeat;  
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+
+  }
+  @font-face { 
+     
+  src: url("https://mdn.github.io/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: "AmstelvarAlpha";
+  font-style:italic;
+    }
+    
+    input {
+      color: #f30707;
+  text-shadow:
+      0 0 7px #f2ff00,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+    height: 50px;
+    padding-left: 10px;
+    text-decoration: none;
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/09/icegif-504.gif);
+    background-size: 10vh;
+    background-repeat: repeat-x;
+    width: 100%;
+    border-radius: 5px; 
+    border: 0;
+      font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+    font-style: oblique 23deg;
+      
+      
+    }
+    .button {
+      width: 50%;
+      height: 10%;
+      overflow: auto;
+      margin: auto;
+      position:absolute;z-index:999;
+      top: 15; left: 10; bottom: 0; right: 0;
+      background-color: transparent;
+      color: white;
+      font:
+    2rem "AmstelvarAlpha",
+    sans-serif;
+     font-style: oblique 23deg;
+      font-size: 15px;
+      border-color: transparent;
+      background-image: url(buttonback.gif);
+    background-size: 5vh;
+    background-repeat: repeat-x;
+    }
+   ::-webkit-input-placeholder { /* Chrome, Safari, Edge */
+        color: rgb(255, 255, 255)
+}
+    :-moz-placeholder { /* Firefox 18- */
+        color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+    
+    :-ms-input-placeholder { /* IE 10+ */
+        color: rgb(255, 255, 255)
+    }
