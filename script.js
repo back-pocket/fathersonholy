@@ -5,7 +5,7 @@ function redirect() {
 
   switch (selectedValue) { 
       case "option1": 
-        document.location = "/Users/chloegillen/Desktop/background/son.html"; 
+        document.location = "https://github.com/back-pocket/fathersonholy/blob/3873b257e6985d46ee67edd202cf7b48a17d2f4c/son.html; 
         alert("Allow Surviellance of Yr Body and Mind.") 
         break; 
       case "option2": 
