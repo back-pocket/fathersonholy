@@ -5,15 +5,15 @@ function redirect() {
 
   switch (selectedValue) { 
       case "option1": 
-        document.location = "son.html"; 
+        document.location = "/Users/chloegillen/Desktop/background/son.html"; 
         alert("Allow Surviellance of Yr Body and Mind.") 
         break; 
       case "option2": 
-          document.location = "father.html"; 
+          document.location = "/Users/chloegillen/Desktop/background/father.html"; 
         alert("Allow Surviellance of Yr Body and Mind.") 
           break; 
       case "option3": 
-         document.location = "spirit.html"; 
+         document.location = "/Users/chloegillen/Desktop/background/spirit.html"; 
         alert("Allow Surviellance of Yr Body and Mind.")  
           break; 
       default: 
