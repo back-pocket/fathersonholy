@@ -13,7 +13,7 @@ function redirect() {
         alert("Allow Surviellance of Yr Body and Mind.") 
           break; 
       case "option3": 
-         document.location = "/Users/chloegillen/Desktop/background/spirit.html"; 
+         document.location = "https://github.com/back-pocket/fathersonholy/blob/018869c073c3646053cf49e773b19d11fc0a458b/spirit.html"; 
         alert("Allow Surviellance of Yr Body and Mind.")  
           break; 
       default: 
